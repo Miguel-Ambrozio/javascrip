@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa em JS</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-indent: 10px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        p {
+            line-height: 1.5em;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Olá, Mundo!</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat molestiae vel? Eaque ipsum laboriosam
+        officiis ullam quis iure vel dolores dolorum repellendus labore sequi deleniti vitae, nobis quod! Suscipit!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At suscipit voluptas optio soluta qui fugit corporis,
+        cum culpa eaque ab vero nostrum consequuntur inventore, alias repellendus quasi distinctio necessitatibus
+        architecto!Lorem
+    </p>
+
+    <script>
+        var n1 = parseInt(prompt('escolha um número: ')) //valor string
+        var n2 = parseInt(prompt('escoha outro número: '))//valor string
+        //esse código converte o o valor que seria recebido com um sting para número
+        //o parseInt converte para um número inteiro
+        //o parseFloat converte para um número com vírgula
+
+        var soma1 = n1 + n2
+        
+        alert('a soma dos seus números é ' + soma1)
+        //o simbolo de + pode  servir tanto para concatenação como para adição
+        //contatenação caso o valor seja uma string
+        //adição caso o valor seja númerico
+
+        var n3 = Number(prompt('Digite um número: '))
+        var n4 = Number(prompt('Digite  outro número: '))
+        //a tag numeber descobre sózinha qual tipo de número sózinha
+
+        var soma2 = n3 + n4
+
+        alert (`A soma entre ${n3} com ${n4} é ${soma2}`)
+        //esse método se chama Tamplete String
+        //facilita muito a escrita de um código caso ele necessite de muitas váriaveis
+    </script>
+</body>
+
+</html>

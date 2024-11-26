@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="\pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        font: normal 20pt Arial;
+    }
+</style>
+
+<body>
+
+    <script>
+        	var nome = prompt('Qual é seu nome?')
+            document.write(`Olá <strong>${nome}</strong>, Seu nome tem ${nome.length} letras <br>`)
+            document.write(`Seu nome em Maiúsculo é ${nome.toUpperCase()} <br>`)
+            document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`)
+            //se usarmos só o write vai tudo ficar grudado na mesma linha
+            //se usar o writeln vai começar em outra linha com se fosse outro parágrafo
+            //podemos também usar o <br> para quebrar a linha
+    </script>
+
+</body>
+</html>
